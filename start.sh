@@ -18,7 +18,7 @@ FIRST_TIME_SETUP=1
 fi
 
 if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
-  clear
+  
   cd $HOME/yiimpserver/install
 
   source functions.sh
